@@ -112,13 +112,6 @@ resources:
           - updated_at
           - website
           - zoneinfo
-    #    CognitoUserPoolDomain:
-    #      Type: AWS::Cognito::UserPoolDomain
-    #      Properties:
-    #        UserPoolId:
-    #          Ref: CognitoUserPool
-    #        Domain: ${self:service}-ticketchainer-${self:provider.stage}
-
 
     # ============================================= Identity pool ==========================================================
     CognitoIdentityPool:
